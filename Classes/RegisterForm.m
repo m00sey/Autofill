@@ -8,33 +8,42 @@
 
 #import "RegisterForm.h"
 
-
 @implementation RegisterForm
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
+- (IBAction) autofill {
+    if (!peoplePicker) {
+        peoplePicker = [[ABPeoplePickerNavigationController alloc] init];
+        [peoplePicker setPeoplePickerDelegate:self];
     }
-    return self;
+    
+    [self presentModalViewController:peoplePicker animated:YES];
 }
-*/
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
+#pragma mark -
+#pragma mark Address book delegates
+- (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person {
+    return NO;
 }
-*/
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+- (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifier {
+    
+    NSString *firstName = (NSString *)ABRecordCopyValue(person, kABPersonFirstNameProperty);
+    NSString *lastName = (NSString *)ABRecordCopyValue(person, kABPersonLastNameProperty);
+    NSString *email = (NSString *)ABRecordCopyValue(person, kABPersonEmailProperty);
+    
+    [txtFirstName setText:firstName];
+    [txtLastName setText:lastName];
+    [txtEmail setText:email];
+    
+    [firstName release];
+    [lastName release];
+    [email release]; 
+    return NO;    
 }
-*/
+
+- (void)peoplePickerNavigationControllerDidCancel:(ABPeoplePickerNavigationController *)peoplePicker {
+    [self dismissModalViewControllerAnimated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RegisterForm.h"
 
 @interface AutofillAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+    RegisterForm *registerForm;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

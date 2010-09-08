@@ -20,6 +20,9 @@
     
     // Override point for customization after application launch.
 	
+    registerForm = [[RegisterForm alloc] init];
+    
+    [window addSubview:[registerForm view]];
     [window makeKeyAndVisible];
 	
 	return YES;

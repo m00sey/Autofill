@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBookUI/AddressBookUI.h>
 
-
-@interface RegisterForm : UIViewController {
-
+@interface RegisterForm : UIViewController <ABPeoplePickerNavigationControllerDelegate> {
+    IBOutlet UIButton *btnAutofil;
+    IBOutlet UITextField *txtFirstName;
+    IBOutlet UITextField *txtLastName;
+    IBOutlet UITextField *txtEmail;
+    
+    ABPeoplePickerNavigationController *peoplePicker;
 }
 
+- (IBAction) autofill;
 @end

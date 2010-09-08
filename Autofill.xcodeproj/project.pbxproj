@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0187B4541237DBCA002B2C13 /* RegisterForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187B4521237DBCA002B2C13 /* RegisterForm.m */; };
 		0187B4551237DBCA002B2C13 /* RegisterForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0187B4531237DBCA002B2C13 /* RegisterForm.xib */; };
+		01D9DF3112380F70006B5D38 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D9DF3012380F70006B5D38 /* AddressBook.framework */; };
+		01D9DF3312380F70006B5D38 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D9DF3212380F70006B5D38 /* AddressBookUI.framework */; };
 		1D3623260D0F684500981E51 /* AutofillAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AutofillAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -21,6 +23,8 @@
 		0187B4511237DBCA002B2C13 /* RegisterForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterForm.h; sourceTree = "<group>"; };
 		0187B4521237DBCA002B2C13 /* RegisterForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterForm.m; sourceTree = "<group>"; };
 		0187B4531237DBCA002B2C13 /* RegisterForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterForm.xib; sourceTree = "<group>"; };
+		01D9DF3012380F70006B5D38 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		01D9DF3212380F70006B5D38 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AutofillAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutofillAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AutofillAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutofillAppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +45,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				01D9DF3112380F70006B5D38 /* AddressBook.framework in Frameworks */,
+				01D9DF3312380F70006B5D38 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +81,8 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				01D9DF3012380F70006B5D38 /* AddressBook.framework */,
+				01D9DF3212380F70006B5D38 /* AddressBookUI.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
