@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	0187B4491237DBA5002B2C13 /* Autofill */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Autofill;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0187B44F1237DBC4002B2C13 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0187B4501237DBC4002B2C13 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1D3623250D0F684500981E51 /* AutofillAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 1260}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 185}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Autofill */ = {
+		activeExec = 0;
+		executables = (
+			0187B4491237DBA5002B2C13 /* Autofill */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0187B4491237DBA5002B2C13 /* Autofill */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Autofill */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Autofill */,
+		);
+		codeSenseManager = 0187B4501237DBC4002B2C13 /* Code sense */;
+		executables = (
+			0187B4491237DBA5002B2C13 /* Autofill */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 305650597;
+			PBXWorkspaceStateSaveDate = 305650597;
+		};
+		sourceControlManager = 0187B44F1237DBC4002B2C13 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
