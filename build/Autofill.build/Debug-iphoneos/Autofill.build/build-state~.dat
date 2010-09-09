@@ -1,447 +1,0 @@
-TAutofill
-v7
-r0
-t305663868.177410
-cCheck dependencies
-cCpResource build/Debug-iphoneos/Autofill.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Info.plist Autofill-Info.plist
-cCompileXIB /Users/kevingriffin/Development/Autofill/MainWindow.xib
-cCompileXIB /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.xib
-cProcessPCH /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-dtfesygmveoeahezqtkdvuzmpchx/Autofill_Prefix.pch.gch Autofill_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-cjfeuaqvghuqrmbnbqikzmkpjvvx/Autofill_Prefix.pch.gch Autofill_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/main.o /Users/kevingriffin/Development/Autofill/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/AutofillAppDelegate.o /Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/RegisterForm.o /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/main.o /Users/kevingriffin/Development/Autofill/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill normal armv6
-cCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/AutofillAppDelegate.o /Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/RegisterForm.o /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill normal armv7
-cCreateUniversalBinary /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill normal "armv6 armv7"
-cGenerateDSYMFile /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app.dSYM /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill
-cProcessProductPackaging "/Users/kevingriffin/Library/MobileDevice/Provisioning Profiles/FCBE1427-C93E-4225-8DF5-5E6795C91468.mobileprovision" /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/embedded.mobileprovision
-cTouch /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill.xcent
-cCodeSign /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C51AB790000000000000110
-t1280420729
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004C2A7DA700000000000001A7
-t1277853095
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004C2A7DA700000000000001E5
-t1277853095
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c000000004BFF3B8900000000000C4C10
-t1275018121
-s805904
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
-c000000004C047FB900000000002319F0
-t1275363257
-s2300400
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
-c000000004C047F9B0000000000000202
-t1275363227
-s514
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C296E2A00000000000009CD
-t1277783594
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C296F120000000002D563E0
-t1277783826
-s47539168
-
-N/Users/kevingriffin/Development/Autofill/Autofill_Prefix.pch
-c000000004C87A42500000000000000B9
-t1283957797
-s185
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.h
-c000000004C87A94A0000000000000187
-t1283959114
-s391
-i<UIKit/UIKit.h>
-i"RegisterForm.h"
-
-N/Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m
-c000000004C87A96C0000000000000A2A
-t1283959148
-s2602
-i"AutofillAppDelegate.h"
-
-N/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.h
-c000000004C87ABD900000000000001F7
-t1283959769
-s503
-i<UIKit/UIKit.h>
-i<AddressBookUI/AddressBookUI.h>
-
-N/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m
-c000000004C87ABA60000000000000592
-t1283959718
-s1426
-i"RegisterForm.h"
-
-N/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.xib
-c000000004C87A9710000000000003276
-t1283959153
-s12918
-
-N/Users/kevingriffin/Development/Autofill/MainWindow.xib
-c000000004C87A425000000000000210D
-t1283957797
-s8461
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill.xcent
-t1283971066
-s422
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill
-t1283971065
-s18012
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill.LinkFileList
-c000000004C87D7F2000000000000017F
-t1283971058
-s383
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/AutofillAppDelegate.o
-t1283971064
-s49796
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/RegisterForm.o
-t1283971064
-s42752
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/main.o
-t1283971064
-s6444
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill
-t1283971065
-s18012
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill.LinkFileList
-c000000004C87D7F2000000000000017F
-t1283971058
-s383
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/AutofillAppDelegate.o
-t1283971064
-s49736
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/RegisterForm.o
-t1283971064
-s42692
-
-N/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/main.o
-t1283971064
-s6428
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app
-t1283971068
-s374
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app.dSYM
-t1283971066
-s102
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill
-t1283971065
-s42588
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Info.plist
-t1283971058
-s730
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/MainWindow.nib
-t1283971059
-s985
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/PkgInfo
-t1283971058
-s8
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/RegisterForm.nib
-t1283971059
-s2018
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/ResourceRules.plist
-t1283971058
-s485
-
-N/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/embedded.mobileprovision
-t1283971066
-s25164
-
-N/Users/kevingriffin/Development/Autofill/main.m
-c000000004C87A425000000000000016E
-t1283957797
-s366
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Library/MobileDevice/Provisioning Profiles/FCBE1427-C93E-4225-8DF5-5E6795C91468.mobileprovision
-c000000004C699A7B000000000000624C
-t1281989243
-s25164
-
-N/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-cjfeuaqvghuqrmbnbqikzmkpjvvx/Autofill_Prefix.pch.gch
-t1283971063
-s10290736
-
-N/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-dtfesygmveoeahezqtkdvuzmpchx/Autofill_Prefix.pch.gch
-t1283971063
-s9831984
-
-NAutofill-Info.plist
-c000000004C87A425000000000000038D
-t1283957797
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies305663858#305663858#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCodeSign /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app
-s305663866.590113
-e305663868.177327
-r1
-xCodeSign
-x/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app
-lSLF07#2@42"CodeSign build/Debug-iphoneos/Autofill.app305663866#305663868#0(0"0(0#0#74"/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app8612543424#662"    cd /Users/kevingriffin/Development/Autofill    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kevin Griffin (672AC8TUP7)" --resource-rules=/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/ResourceRules.plist --entitlements /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill.xcent /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app0#
-
-CCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/AutofillAppDelegate.o /Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s305663864.088993
-e305663864.386726
-r1
-xCompileC
-xbuild/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/AutofillAppDelegate.o
-x/Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m305663864#305663864#0(0"0(0#0#70"/Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m8613151264#1804"    cd /Users/kevingriffin/Development/Autofill    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-generated-files.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-own-target-headers.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-project-headers.hmap -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -I/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/include -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources/armv6 -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-dtfesygmveoeahezqtkdvuzmpchx/Autofill_Prefix.pch -c /Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/AutofillAppDelegate.o0#
-
-CCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/RegisterForm.o /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s305663864.367899
-e305663864.450725
-r1
-xCompileC
-xbuild/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/RegisterForm.o
-x/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m305663864#305663864#0(0"0(0#0#63"/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m8598238144#1790"    cd /Users/kevingriffin/Development/Autofill    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-generated-files.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-own-target-headers.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-project-headers.hmap -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -I/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/include -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources/armv6 -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-dtfesygmveoeahezqtkdvuzmpchx/Autofill_Prefix.pch -c /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/RegisterForm.o0#
-
-CCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/main.o /Users/kevingriffin/Development/Autofill/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s305663864.088021
-e305663864.367811
-r1
-xCompileC
-xbuild/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/main.o
-x/Users/kevingriffin/Development/Autofill/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/kevingriffin/Development/Autofill/main.m305663864#305663864#0(0"0(0#0#47"/Users/kevingriffin/Development/Autofill/main.m8603318432#1766"    cd /Users/kevingriffin/Development/Autofill    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-generated-files.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-own-target-headers.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-project-headers.hmap -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -I/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/include -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources/armv6 -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-dtfesygmveoeahezqtkdvuzmpchx/Autofill_Prefix.pch -c /Users/kevingriffin/Development/Autofill/main.m -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/AutofillAppDelegate.o /Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s305663864.512153
-e305663864.737378
-r1
-xCompileC
-xbuild/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/AutofillAppDelegate.o
-x/Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m305663864#305663864#0(0"0(0#0#70"/Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m8597814016#1804"    cd /Users/kevingriffin/Development/Autofill    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-generated-files.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-own-target-headers.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-project-headers.hmap -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -I/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/include -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources/armv7 -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-cjfeuaqvghuqrmbnbqikzmkpjvvx/Autofill_Prefix.pch -c /Users/kevingriffin/Development/Autofill/Classes/AutofillAppDelegate.m -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/AutofillAppDelegate.o0#
-
-CCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/RegisterForm.o /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s305663864.737511
-e305663864.888854
-r1
-xCompileC
-xbuild/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/RegisterForm.o
-x/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m305663864#305663864#0(0"0(0#0#63"/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m8611512384#1790"    cd /Users/kevingriffin/Development/Autofill    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-generated-files.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-own-target-headers.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-project-headers.hmap -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -I/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/include -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources/armv7 -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-cjfeuaqvghuqrmbnbqikzmkpjvvx/Autofill_Prefix.pch -c /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.m -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/RegisterForm.o0#
-
-CCompileC build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/main.o /Users/kevingriffin/Development/Autofill/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s305663864.386825
-e305663864.512068
-r1
-xCompileC
-xbuild/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/main.o
-x/Users/kevingriffin/Development/Autofill/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/kevingriffin/Development/Autofill/main.m305663864#305663864#0(0"0(0#0#47"/Users/kevingriffin/Development/Autofill/main.m8612850112#1766"    cd /Users/kevingriffin/Development/Autofill    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-generated-files.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-own-target-headers.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-project-headers.hmap -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -I/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/include -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources/armv7 -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-cjfeuaqvghuqrmbnbqikzmkpjvvx/Autofill_Prefix.pch -c /Users/kevingriffin/Development/Autofill/main.m -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.xib
-s305663858.941080
-e305663859.483887
-r1
-xCompileXIB
-x/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@35"CompileXIB Classes/RegisterForm.xib305663858#305663859#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#65"/Users/kevingriffin/Development/Autofill/Classes/RegisterForm.xib8595748352#561"    cd /Users/kevingriffin/Development/Autofill    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/RegisterForm.nib /Users/kevingriffin/Development/Autofill/Classes/RegisterForm.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/kevingriffin/Development/Autofill/MainWindow.xib
-s305663858.940453
-e305663859.483754
-r1
-xCompileXIB
-x/Users/kevingriffin/Development/Autofill/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib305663858#305663859#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/kevingriffin/Development/Autofill/MainWindow.xib8601923936#549"    cd /Users/kevingriffin/Development/Autofill    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/MainWindow.nib /Users/kevingriffin/Development/Autofill/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCpResource build/Debug-iphoneos/Autofill.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s305663858.848220
-e305663858.940372
-r1
-xCpResource
-xbuild/Debug-iphoneos/Autofill.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist305663858#305663858#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist3419159298929816064#485"    cd /Users/kevingriffin/Development/Autofill    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app0#
-
-CCreateUniversalBinary /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill normal "armv6 armv7"
-s305663865.830264
-e305663865.923439
-r1
-xCreateUniversalBinary
-x/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill
-xnormal
-xarmv6 armv7
-lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/Autofill.app/Autofill normal "armv6 armv7"305663865#305663865#0(0"0(0#0#52"/Users/kevingriffin/Development/Autofill/armv6 armv78612340320#534"    cd /Users/kevingriffin/Development/Autofill    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill -output /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill0#
-
-CGenerateDSYMFile /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app.dSYM /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill
-s305663865.923683
-e305663866.169021
-r1
-xGenerateDSYMFile
-x/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app.dSYM
-x/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill
-lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Autofill.app.dSYM build/Debug-iphoneos/Autofill.app/Autofill305663865#305663866#0(0"0(0#0#83"/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill8611533344#371"    cd /Users/kevingriffin/Development/Autofill    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Autofill -o /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app.dSYM0#
-
-CLd /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill normal armv6
-s305663864.450820
-e305663865.830162
-r1
-xLd
-x/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill
-xnormal
-xarmv6
-lSLF07#2@126"Link /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill305663864#305663865#0(0"0(0#0#0"8612434592#923"    cd /Users/kevingriffin/Development/Autofill    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -filelist /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv6/Autofill0#
-
-CLd /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill normal armv7
-s305663864.888951
-e305663865.782154
-r1
-xLd
-x/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill
-xnormal
-xarmv7
-lSLF07#2@126"Link /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill305663864#305663865#0(0"0(0#0#0"8603372160#923"    cd /Users/kevingriffin/Development/Autofill    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -filelist /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Objects-normal/armv7/Autofill0#
-
-CProcessInfoPlistFile /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Info.plist Autofill-Info.plist
-s305663858.873185
-e305663858.891877
-r1
-xProcessInfoPlistFile
-x/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Info.plist
-xAutofill-Info.plist
-lSLF07#2@27"Process Autofill-Info.plist305663858#305663858#0(0"0(0#0#60"/Users/kevingriffin/Development/Autofill/Autofill-Info.plist8611328480#574"    cd /Users/kevingriffin/Development/Autofill    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Autofill-Info.plist -genpkginfo /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/ResourceRules.plist -o /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/Info.plist0#
-
-CProcessPCH /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-cjfeuaqvghuqrmbnbqikzmkpjvvx/Autofill_Prefix.pch.gch Autofill_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s305663859.484882
-e305663864.087931
-r1
-xProcessPCH
-x/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-cjfeuaqvghuqrmbnbqikzmkpjvvx/Autofill_Prefix.pch.gch
-xAutofill_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile Autofill_Prefix.pch305663859#305663864#0(0"0(0#0#60"/Users/kevingriffin/Development/Autofill/Autofill_Prefix.pch8611457856#1661"    cd /Users/kevingriffin/Development/Autofill    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-generated-files.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-own-target-headers.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-project-headers.hmap -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -I/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/include -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources/armv7 -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources -c /Users/kevingriffin/Development/Autofill/Autofill_Prefix.pch -o /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-cjfeuaqvghuqrmbnbqikzmkpjvvx/Autofill_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-dtfesygmveoeahezqtkdvuzmpchx/Autofill_Prefix.pch.gch Autofill_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s305663859.484061
-e305663864.043521
-r1
-xProcessPCH
-x/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-dtfesygmveoeahezqtkdvuzmpchx/Autofill_Prefix.pch.gch
-xAutofill_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile Autofill_Prefix.pch305663859#305663864#0(0"0(0#0#60"/Users/kevingriffin/Development/Autofill/Autofill_Prefix.pch8611581792#1661"    cd /Users/kevingriffin/Development/Autofill    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-generated-files.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-own-target-headers.hmap -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill-project-headers.hmap -F/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos -I/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/include -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources/armv6 -I/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/DerivedSources -c /Users/kevingriffin/Development/Autofill/Autofill_Prefix.pch -o /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Autofill_Prefix-dtfesygmveoeahezqtkdvuzmpchx/Autofill_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/kevingriffin/Library/MobileDevice/Provisioning Profiles/FCBE1427-C93E-4225-8DF5-5E6795C91468.mobileprovision" /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/embedded.mobileprovision
-s305663866.169135
-e305663866.476831
-r1
-xProcessProductPackaging
-x/Users/kevingriffin/Library/MobileDevice/Provisioning Profiles/FCBE1427-C93E-4225-8DF5-5E6795C91468.mobileprovision
-x/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/embedded.mobileprovision
-lSLF07#2@200"ProcessProductPackaging "/Users/kevingriffin/Library/MobileDevice/Provisioning Profiles/FCBE1427-C93E-4225-8DF5-5E6795C91468.mobileprovision" build/Debug-iphoneos/Autofill.app/embedded.mobileprovision305663866#305663866#0(0"0(0#0#99"/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/embedded.mobileprovision8610491424#435"    cd /Users/kevingriffin/Development/Autofill    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kevingriffin/Library/MobileDevice/Provisioning Profiles/FCBE1427-C93E-4225-8DF5-5E6795C91468.mobileprovision" -o /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill.xcent
-s305663866.565264
-e305663866.590043
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill.xcent
-lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill.xcent305663866#305663866#0(0"0(0#0#106"/Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill.xcent8610992064#439"    cd /Users/kevingriffin/Development/Autofill    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/kevingriffin/Development/Autofill/build/Autofill.build/Debug-iphoneos/Autofill.build/Autofill.xcent0#
-
-CTouch /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app
-s305663866.476903
-e305663866.565143
-r1
-xTouch
-x/Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app
-lSLF07#2@80"Touch /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app305663866#305663866#0(0"0(0#0#0"8612322048#269"    cd /Users/kevingriffin/Development/Autofill    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kevingriffin/Development/Autofill/build/Debug-iphoneos/Autofill.app0#
-
