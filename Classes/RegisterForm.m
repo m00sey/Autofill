@@ -22,23 +22,32 @@
 #pragma mark -
 #pragma mark Address book delegates
 - (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person {
-    return NO;
-}
-
-- (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifier {
     
     NSString *firstName = (NSString *)ABRecordCopyValue(person, kABPersonFirstNameProperty);
     NSString *lastName = (NSString *)ABRecordCopyValue(person, kABPersonLastNameProperty);
-    NSString *email = (NSString *)ABRecordCopyValue(person, kABPersonEmailProperty);
     
+	NSString *email = nil;
+	ABMultiValueRef emails = ABRecordCopyValue(person, kABPersonEmailProperty);
+	
+	//just taking the first email.
+	if (ABMultiValueGetCount(emails) > 0) {
+		email = (NSString *) ABMultiValueCopyValueAtIndex(emails, 0);
+	}
     [txtFirstName setText:firstName];
     [txtLastName setText:lastName];
     [txtEmail setText:email];
+	CFRelease(emails);
     
     [firstName release];
     [lastName release];
     [email release]; 
+	[self dismissModalViewControllerAnimated:YES];
+	
     return NO;    
+}
+
+- (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifier {
+	return YES;
 }
 
 - (void)peoplePickerNavigationControllerDidCancel:(ABPeoplePickerNavigationController *)peoplePicker {
